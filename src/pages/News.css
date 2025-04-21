@@ -1,0 +1,52 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.Main-content{
+    display: flex;
+}
+.Middle{
+    display: block;
+}
+.card{
+    border:2px solid #982020;
+    background-color:blanchedalmond;
+    border-radius: 15px;
+    height: 500px;
+    width: 300px;
+    
+}
+.btn{
+    background-color: #982020;
+    border:none;
+    border-radius: 15px;
+    color: aliceblue;
+}
+.card .btn{
+    width: 85%;
+}
+.card .Heading{
+    font-size: 18px;
+    font-stretch: expanded;
+    text-decoration: underline;
+
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+    
+}
+.card img{
+    height:150px;
+    width: 300px;
+}
+.btn2{
+    height: 20px
+}
+.pagination{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+   

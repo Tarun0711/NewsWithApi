@@ -1,0 +1,67 @@
+.sideBar {
+  background-color: #982020;
+  width: 250px;
+  padding: 30px;
+  height: fit-content;
+  text-align: center;
+  color: aliceblue;
+  text-decoration: none;
+  border-radius: 0 15px 15px 0;
+  p {
+    text-align: center;
+    padding: 5px;
+    font-size: 1.6rem;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style: none;
+  }
+  li {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    margin: 20px;
+    cursor: pointer;
+  }
+  li:hover {
+    text-decoration: underline;
+    color: #676565;
+  }
+}
+.main-content .active{
+  color: #676565;
+}
+.main-content .inactive{
+  color: aliceblue;
+}
+.search {
+  width: 100%;
+  display: flex;
+  margin-left: 30px;
+  .SearchBar {
+    width: 100%;
+    display: flex;
+    height: 50px;
+      width: 90%;
+      border-radius: 15px;
+      border: 2px solid #ae2828;
+  }
+}
+.btn {
+  background-color: #ae2828;
+  margin-left: 20px;
+  height: 50px;
+  width: 100px;
+  border: none;
+  color: aliceblue;
+  font-size: 18px;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.btn:hover{
+  font-size: 24px;
+  color: #982020;
+  background-color:white;
+  border: 3px solid #982020;
+}

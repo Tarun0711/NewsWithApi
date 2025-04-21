@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+.Header{
+    background-color: #982020;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0px 12px 13.4px 0px rgba(255, 64, 64, 0.25);
+    color: white;
+    justify-content: center;
+    p{
+        padding: 10px;
+        letter-spacing: 5px;
+        text-align: center;
+        font-size: 32px;
+        justify-content: center;
+        span{
+            font-family: 'Faster One', system-ui;
+            font-size: 50px;
+        }
+    }
+    
+}
